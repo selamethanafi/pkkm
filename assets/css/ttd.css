@@ -1,0 +1,35 @@
+.kotak-ttd {
+  position: relative;
+  color: black;
+ 
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 18px;
+  left: 160px;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 160px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  left: 480px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 18px;
+  left: 480px;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
